@@ -4,12 +4,14 @@
 /* ============================== Main settings ============================== */
 html {
     scroll-behavior: smooth;
+    background-color: #fff;
 }
 
 body {
     font-family: 'Rajdhani', sans-serif !important;
     font-weight: 400;
     font-size: 18px;
+    background-color: #fff;
 }
 
 p,h1,h2,h3,h4 {
@@ -30,3 +32,130 @@ img {
     height: auto;
 }
 /* ============================== SITE ============================== */
+                                                   
+/* ============================== NAVBAR ============================== */
+.hero {
+    background: url("/img/BG.png") center / cover no-repeat;
+}
+.header {
+    padding: 44px 64px 0 64px;
+}
+.navbar {
+    padding: 0 !important;
+}
+.navbar-brand {
+    padding: 0 !important;
+    width: 120px !important;   
+}
+.logotype {
+    width: 40px;
+    height: 40px;
+}
+.logo-text {
+    font-weight: 400;
+    line-height: 24px;
+    color: #0A0B1B;
+}
+.nav-item {
+    margin-right: 48px;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 8px 24px !important;  
+}
+.active {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 2px 2px rgba(10, 11, 27, 0.12);
+    border-radius: 8px;
+    color: #0A0B1B !important;
+}
+.nav-link:hover {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 2px 2px rgba(10, 11, 27, 0.12);
+    border-radius: 8px;
+}
+.socials {
+    flex-direction: row;
+}
+.social__link {
+    margin-right: 32px;
+    width: 20px;
+}
+.social__link:last-child {
+    margin-right: 0;
+}
+.social {
+    width: 20px;
+    color: rgba(10, 11, 27, 0.24);
+    transition: 0.3s ease;
+}
+.social:hover {
+    color: #0A0B1B !important;
+}
+/* OFFER */
+.offer {
+    margin-top: 121px;
+}
+.offer-wrapper {
+    padding-left: 144px !important;
+}
+.offer__title {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 76px;
+    color: #0A0B1B;
+    width: 540px;
+    margin-bottom: 24px !important;
+}
+.offer__subtitle {
+    color: rgba(10, 11, 27, 0.44);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    width: 700px;
+}   
+.btns {
+    margin-top: 36px;
+}
+.btn__contacts {
+    background: rgba(255, 255, 255, 0.15);
+    background-blend-mode: hard-light;
+    box-shadow: 0px 2px 2px rgba(10, 11, 27, 0.12);
+    border-radius: 12px;
+    padding: 16px 32px;
+    color: #0A0B1B;
+    transition: 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 32px;
+}
+.btn__contacts-sec {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 2px 2px rgba(10, 11, 27, 0.12);
+    border-radius: 12px;
+    padding: 16px 32px;
+    color: #0A0B1B;
+    transition: 0.3s ease;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 32px;
+}
+.btn__contacts:hover {
+    background: linear-gradient(180deg, #3D39FF -12.5%, #5A9CFF 100%);
+    transition: 0.3s ease;
+    color: #0A0B1B;
+    background-blend-mode: hard-light;
+}
+.btn__contacts-sec:hover {
+    background: linear-gradient(180deg, #3D39FF -12.5%, #5A9CFF 100%);
+    transition: 0.3s ease;
+    color: #0A0B1B;
+    background-blend-mode: hard-light;
+}
