@@ -35,13 +35,14 @@ img {
                                                    
 /* ============================== NAVBAR ============================== */
 .hero {
-    background: url("/img/BG.png") center / cover no-repeat;
+    background: url("../img/BG.png") center / cover no-repeat;
 }
 .header {
     padding: 44px 64px 0 64px;
 }
 .navbar {
-    padding: 0 !important;
+    padding: 44px 64px 0 64px !important;
+    z-index: 100;
 }
 .navbar-brand {
     padding: 0 !important;
@@ -103,6 +104,7 @@ img {
 }
 .offer-wrapper {
     padding-left: 144px !important;
+    padding-bottom: 110px;
 }
 .offer__title {
     font-size: 54px;
@@ -123,17 +125,20 @@ img {
     margin-top: 36px;
 }
 .btn__contacts {
-    background: rgba(255, 255, 255, 0.15);
-    background-blend-mode: hard-light;
-    box-shadow: 0px 2px 2px rgba(10, 11, 27, 0.12);
-    border-radius: 12px;
-    padding: 16px 32px;
-    color: #0A0B1B;
-    transition: 0.3s ease;
     font-size: 16px;
     font-weight: 500;
+    padding: 16px 32px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    color: #0A0B1B;
+    transition: .3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
     line-height: 20px;
     margin-right: 32px;
+    box-shadow: 0px 2px 2px rgba(10, 11, 27, 0.12);
 }
 .btn__contacts-sec {
     background: rgba(255, 255, 255, 0.15);
@@ -141,21 +146,91 @@ img {
     border-radius: 12px;
     padding: 16px 32px;
     color: #0A0B1B;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
     transition: 0.3s ease;
     font-size: 16px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 20px;  
     margin-left: 32px;
 }
 .btn__contacts:hover {
-    background: linear-gradient(180deg, #3D39FF -12.5%, #5A9CFF 100%);
-    transition: 0.3s ease;
-    color: #0A0B1B;
-    background-blend-mode: hard-light;
+    color: #0A0B1B !important;
+    background: linear-gradient(180deg, #3D39FF -50.5%, #A6F6FF 100%);
 }
 .btn__contacts-sec:hover {
-    background: linear-gradient(180deg, #3D39FF -12.5%, #5A9CFF 100%);
-    transition: 0.3s ease;
     color: #0A0B1B;
+    background: linear-gradient(180deg, #3D39FF -50.5%, #A6F6FF 100%);
+}
+.info__hero {
+    margin-top: 42px;
+    margin-bottom: 42px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    width: 550px;
+    border-top: 1px solid #0a0b1b1c;
+    border-bottom: 1px solid #0a0b1b13;
+    border-color: linear-gradient(90deg, rgba(10, 11, 27, 0.0144) 7.02%, rgba(10, 11, 27, 0.12) 50.92%, rgba(10, 11, 27, 0.0144) 93.27%);
+}
+.info__color-text {
+    font-size: 36px;
+    background: linear-gradient(180deg, #3D39FF -12.5%, #5A9CFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
     background-blend-mode: hard-light;
+    text-shadow: 0px 2px 2px rgba(10, 11, 27, 0.24);
+    line-height: 46px;
+    font-weight: 600;
+}
+.info__text {
+    color: rgba(10, 11, 27, 0.44); 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;  
+}
+.review__hero {
+    margin-top: 42px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 2px 2px rgba(10, 11, 27, 0.12);
+    border-radius: 18px;
+    padding: 16px;
+}
+.reviewer__info-block {
+    margin-bottom: 12px;
+}
+.reviewer__name {
+    margin-left: 12px !important;
+    color: #0A0B1B;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.reviewer__text {
+    color: rgba(10, 11, 27, 0.44);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+.offer__img {
+    margin-top: -140px;
+    background-blend-mode: luminosity !important;
+}
+.next-page {
+    position: absolute;
+    right: -480%;
+    top: -170px;
+    width: 256px;
+    text-align: right;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: rgba(10, 11, 27, 0.24);
+    transition: .3s ease;
+    border-bottom: 1px solid #0a0b1b13;
+}
+.next-page:hover {
+    color: #0A0B1B;
 }

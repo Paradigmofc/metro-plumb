@@ -19,7 +19,7 @@
 <body>
     <div class="hero">
       <header class="header" id="header">
-        <nav class="navbar navbar-expand-lg bg-transparent">
+        <nav class="navbar fixed-top navbar-expand-lg bg-transparent">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center" href="#">
                   <img src="img/water 1.png" alt="logo" class="logotype">
@@ -32,19 +32,19 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                   <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Plumbing services</a>
+                      <a class="nav-link" href="#plumbing">Plumbing services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Drain services</a>
+                      <a class="nav-link" href="#drain">Drain services</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About us</a>
+                      <a class="nav-link" href="#about">About us</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Promotions</a>
+                      <a class="nav-link" href="#promo">Promotions</a>
                     </li>
                   </ul>
                 </div>
@@ -75,12 +75,14 @@
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                     </p>
                     <div class="btns d-flex align-items-center">
-                      <a href="#" class="btn__contacts">Contact us</a>
+                      <a href="#promo" class="btn__contacts">
+                        Contact us
+                      </a>
                       <p class="btns__or">or</p>
-                      <a href="#" class="btn__contacts-sec">Explore more <i class="uil uil-arrow-right"></i></a>
+                        <a href="#promo" class="btn__contacts-sec">Explore more <i class="uil uil-arrow-right"></i></a>
                     </div>
                   </div>
-                  <div class="info__hero d-flex info__line">
+                  <div class="info__hero d-flex justify-content-between info__line">
                     <div class="info__group">
                       <span class="info__color-text">
                         11 years
@@ -107,7 +109,7 @@
                     </div>
                   </div>
                   <div class="review__hero">
-                    <div class="reviewer__info-block d-flex">
+                    <div class="reviewer__info-block d-flex align-items-center">
                       <img src="img/Ellipse 7.png" alt="reviewer">
                       <p class="reviewer__name">Mathew Dallas</p>
                     </div>
@@ -118,6 +120,13 @@
                 </div>
                 <div class="col-7">
                   <img src="img/IMAGE_HERO.png" alt="image hero" class="offer__img">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2 position-relative">
+                <div class="next-step d-flex align-items-center">
+                  <a href="#plumbing" class="next-page">Services <i class="uil uil-arrow-right"></i></a>
                 </div>
               </div>
             </div>
